@@ -19,7 +19,7 @@ function Home() {
     <>
         You have not logged in and cannot view the dashboard.
         <br/><br/>
-        <a href="/" className={styles.link}>Login to continue.</a>
+        <a href="/" >Login to continue.</a>
     </>
 
   return (
