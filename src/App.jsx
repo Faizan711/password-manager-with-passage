@@ -5,13 +5,14 @@ import Login from './components/Login'
 import Home from './components/Home'
 
 function App() {
-  
-
 
   return (
 
       <div>
-        <p>passage</p>
+        <div className="header">
+          <h3>KeyVault :</h3>
+          <h4>&nbsp;Secure your passwords</h4>
+        </div>
         <Routes>
           <Route path="/" element={<Login/>}></Route>
           <Route path="/home" element={<Home/>}></Route>
